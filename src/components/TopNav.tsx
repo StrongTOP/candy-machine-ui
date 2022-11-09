@@ -23,15 +23,16 @@ const ROUTES = [
 ];
 
 const OTHER_LAYOUT_ROUTES = [
-  { url: RouteName.customToken, name: "Custom Token Marketplace" },
-  { url: RouteName.multipleCollection, name: "Multi Collection Marketplace" },
-  { url: RouteName.marketplaceWithUrl, name: "Marketplace With URL" },
+  { url: RouteName.activityView, name: "Marketplace Activity" },
+  { url: RouteName.customToken, name: "" },
+  { url: RouteName.multipleCollection, name: "" },
+  { url: RouteName.marketplaceWithUrl, name: "" },
   {
     url: RouteName.multipleCurrencyMarketplace,
-    name: "Multi Currency Marketplace",
+    name: "",
   },
-  { url: RouteName.multipleCurrencySell, name: "Multi Currency Sell" },
-  { url: RouteName.activityView, name: "Marketplace Activity" },
+  { url: RouteName.multipleCurrencySell, name: "" },
+  
 ];
 
 const TopNav: React.FC<TopNavProps> = ({ showCurrencyToggle = false }) => {
@@ -89,7 +90,7 @@ const TopNav: React.FC<TopNavProps> = ({ showCurrencyToggle = false }) => {
               : ""
           }
         >
-          Other Layouts
+          Other
           <Popper
             open={open}
             anchorEl={anchorRef.current}
@@ -183,7 +184,7 @@ const Logo = styled.div`
   margin-right: 10px;
 
   img {
-    height: 60px;
+    height: 100px;
   }
 `;
 

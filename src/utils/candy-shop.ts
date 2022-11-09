@@ -1,6 +1,10 @@
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
 import { PublicKey } from "@solana/web3.js";
 import { CandyShop } from "@liqnft/candy-shop-sdk";
+import { Orders } from '@liqnft/candy-shop';
+import { Sell } from '@liqnft/candy-shop';
+import { Activity } from '@liqnft/candy-shop';
+import { OrderDetail } from '@liqnft/candy-shop';
 
 const CANDY_SHOP_CREATOR_ADDRESS = new PublicKey(
   process.env.REACT_APP_CANDY_SHOP_CREATOR_ADDRESS!

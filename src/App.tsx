@@ -19,7 +19,7 @@ import {
   getLedgerWallet,
   getSafePalWallet,
 } from "@solana/wallet-adapter-wallets";
-
+<link href="https://fonts.cdnfonts.com/css/mexon" rel="stylesheet" />
 import TopNav from "./components/TopNav";
 import { CurrencyProvider } from "./components/Currency";
 import Marketplace from "./views/Marketplace";
@@ -67,6 +67,7 @@ const theme = createTheme({
 // Used for a multi-currency shop
 const currencyOptions = [
   {
+    
     currencySymbol: "SOL",
     treasuryMint: "So11111111111111111111111111111111111111112",
     currencyDecimals: 9,
@@ -75,9 +76,9 @@ const currencyOptions = [
     mainnetConnectionUrl: RPC_HOST,
   },
   {
-    currencySymbol: "56p",
-    treasuryMint: "56pdaHboK66cxRLkzkYVvFSAjfoNEETJUsrdmAYaTXMJ",
-    currencyDecimals: 9,
+    currencySymbol: "Bio",
+    treasuryMint: "DK4UBFFbcrzCwhVTRCeRa7TEJLAmfUM9JGSMjq221ooH",
+    currencyDecimals: 0,
     priceDecimals: 2,
     volumeDecimals: 1,
     mainnetConnectionUrl: RPC_HOST,

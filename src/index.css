@@ -3,23 +3,23 @@
   --main-background-color: #343a50;
   --card-background-color: #51576d;
   --card-background-lighter-color: #7a7f92;
-  --main-text-color: #f7f6f4;
+  --main-text-color: #f7d705;
   --title-text-color: #3cba8b;
 }
 
 body {
   background-color: var(--main-background-color);
-  /*background: url('img/background.png');
-  background-size: cover; */
+  background: url('img/background.png');
+  background-size: cover; 
 
   margin: 0;
-  font-family: 'Helvetica', Arial, sans-serif;
+  font-family: 'Mexon','Mexon', Arial, sans-serif;
   font-size:  16px;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #303030;
-  color: #FFFFFF;
+  color: #f7d705;
 }
 
 code {
@@ -47,4 +47,14 @@ h3 {
 
 .css-1ago99h {
   color: black;
+}
+.font-mexon {
+  font-family: 'Mexon', sans-serif !important;
+}
+.cursor-pointer p {
+  font-family: 'Mexon', sans-serif !important;  
+}
+
+.text-4xl {
+  font-family: 'Mexon', sans-serif !important;
 }

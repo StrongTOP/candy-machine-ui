@@ -12,8 +12,9 @@ const Marketplace: React.FC = () => {
       <Stat
         candyShop={candyShop}
         title={"Marketplace"}
+        
         description={
-          "Candy Shop is an open source library that allows you to create NFT storefronts and auctions in minutes!"
+          ""
         }
         style={{ paddingBottom: 50 }}
       />

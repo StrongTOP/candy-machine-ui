@@ -1,6 +1,6 @@
 # Candy Shop Storefront
 
-Solana NFT storefront powered by [Candy Shop](https://github.com/LIQNFT/candy-shop).
+Solana NFT storefront powered by [sss](https://github.com/LIQNFT/candy-shop).
 
 * [Docs](https://liqnft.gitbook.io/candy-shop/candy-shop/getting-started)
 * [Website](https://candy.liqnft.com/)

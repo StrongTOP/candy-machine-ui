@@ -11,6 +11,7 @@ const MyCollection: React.FC = () => {
   return (
     <DesContainer>
       <h1 style={{ marginBottom: 30 }}>My Collection</h1>
+      
       <Sell
         wallet={wallet}
         candyShop={candyShop}
